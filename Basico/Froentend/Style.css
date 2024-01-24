@@ -1,0 +1,28 @@
+/*Algumas prioridades para estilizar a pagina*/
+section {
+    /*cor de fundo*/
+    background-color: beige;
+    /*Largura*/ 
+    
+    width: 600px;
+}
+
+#texto {
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+#cabecalho {
+    font-size: 50px;
+    color: brown;
+}
+
+.paragrafo {
+    font-size: 20px;
+    color: blue;
+}
+
+#footer {
+    color: cornflowerblue;
+    font-size: 20px;
+}

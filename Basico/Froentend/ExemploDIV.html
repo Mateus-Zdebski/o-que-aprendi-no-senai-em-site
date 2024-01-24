@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+<style>
+    #container {
+        /*Centraliza o conteudo que esta em uma div*/
+        margin: 0 auto;
+        width: 1200px;
+        border: 1px solid rebeccapurple;
+    }
+
+    .divisao {
+        border: 1px solid blue;
+        border-radius: 7px;
+        /*Permite espaçamento*/
+        width: 300px;
+        padding: 10px;
+        margin-left: 10px;
+        /*Espacamento da margem*/
+        margin-top: 10px;
+        float: left;
+        /*PErmite flutuar*/
+    }
+
+    .clear {
+        /*PROPRIEDADE CLEAR: PERMITE  LIMPAR OS ELEMENTOS QUE ESTÃO FLUTUANDO*/
+        clear: left;
+    }
+
+    #container-box {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .box1 {
+        width: 200px;
+        height: 200px;
+        background-color: aquamarine;
+        line-height: 170px;
+        text-align: center;
+        float: left;
+        margin-left: 10px;
+    }
+
+
+    .box2 {
+        width: 200px;
+        height: 200px;
+        background-color: beige;
+        line-height: 170px;
+        text-align: center;
+        float: left;
+        margin-left: 10px;
+    }
+
+
+    .box3 {
+        width: 200px;
+        height: 200px;
+        background-color: royalblue;
+        line-height: 170px;
+        text-align: center;
+        float: left;
+        margin-left: 10px;
+    }
+
+
+    .box4 {
+        width: 200px;
+        height: 200px;
+        background-color: crimson;
+        /*Altura e linha*/
+        line-height: 170px;
+        text-align: center;
+        float: left;
+        margin-left: 10px;
+    }
+</style>
+
+<body>
+    <!--DIV-->
+    <div>
+        <div id="container">
+            <div class="divisao">
+                <p>Div(S) e ou são elementos para estruturar conteudos
+                    de paginas podendo construir container e outros
+                    conteudos.Quando não utilizados nao tem efeito</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="divisao">
+            <p>Div(S) e ou são elementos para estruturar conteudos
+                de paginas podendo construir container e outros
+                conteudos.Quando não utilizados nao tem efeito</p>
+        </div>
+    </div>
+
+
+    <div class="divisao">
+        <p>Div(S) e ou são elementos para estruturar conteudos
+            de paginas podendo construir container e outros
+            conteudos.Quando não utilizados nao tem efeito</p>
+    </div>
+    </div>
+
+    <div>
+        <div class="divisao">
+            <p>Div(S) e ou são elementos para estruturar conteudos
+                de paginas podendo construir container e outros
+                conteudos.Quando não utilizados nao tem efeito</p>
+        </div>
+    </div>
+    <p class="clear">
+        Div(S) e ou são elementos para estruturar conteudos
+        de paginas podendo construir container e outros
+        conteudos.Quando não utilizados nao tem efeito</p>
+    </div>
+
+    <div id="container-box">
+        <div class="box1">
+            box1
+        </div>
+
+
+        <div class="box2">
+            box2
+        </div>
+
+
+        <div class="box3">
+            box3
+        </div>
+
+
+        <div class="box4">
+            box4
+        </div>
+    </div>
+
+
+    <script src="" async defer></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>manipelando-classe</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+<style>
+    .estilo1 {
+        background: #ff0000;
+        color: #ffffff;
+    }
+
+    .estilo2 {
+        width: 400px;
+        height: 50px;
+        background-color: #ff0000;
+        text-align: center;
+        font-size: 25px;
+        color: #f0f8ff;
+        padding: 25px;
+    }
+</style>
+<script>
+    function modificaClasse() {
+        document.getElementById('mensagem').className = 'estilo2'
+    }
+</script>
+
+<body>
+    <div id="mensagem" class="estilo1">modifica Classe</div>
+    <hr>
+    <button type="button" onclick="modificaClasse()">Aplicar a classe</button>
+    <script src="" async defer></script>
+</body>
+
+</html>

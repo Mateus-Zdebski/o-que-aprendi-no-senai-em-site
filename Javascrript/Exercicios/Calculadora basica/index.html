@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+    <script language="javascript">
+        function calculo() {
+            var escolha = document.getElementById("escolha").value;
+            var resultado = document.getElementById("resultado");
+
+            switch (escolha) {
+                case "1":
+                    var numero = prompt("Digite um número para calcular a raiz quadrada:");
+                    var raizQuadrada = Math.sqrt(numero);
+                    resultado.innerHTML = "A raiz quadrada de " + numero + " é " + raizQuadrada;
+                    break;
+
+                case "2":
+                    var num1 = prompt("Digite o primeiro número:");
+                    var num2 = prompt("Digite o segundo número:");
+                    var maiorNumero = Math.max(num1, num2);
+                    resultado.innerHTML = "O maior número entre " + num1 + " e " + num2 + " é " + maiorNumero;
+                    break;
+
+                case "3":
+                    var base = prompt("Digite a base:");
+                    var expoente = prompt("Digite o expoente:");
+                    var resultadoPotencia = Math.pow(base, expoente);
+                    resultado.innerHTML = base + " elevado a " + expoente + " é igual a " + resultadoPotencia;
+                    break;
+
+                case "4":
+                    var num3 = prompt("Digite o primeiro número:");
+                    var num4 = prompt("Digite o segundo número:");
+                    var resultadoSoma = parseFloat(num3) + parseFloat(num4);
+                    resultado.innerHTML = "A soma de " + num3 + " e " + num4 + " é igual a " + resultadoSoma;
+                    break;
+
+                case "5":
+                    var frase = prompt("Digite uma frase em letras minúsculas:");
+                    var fraseMaiuscula = frase.toUpperCase();
+                    resultado.innerHTML = "Frase em maiúsculas: " + fraseMaiuscula;
+                    break;
+                    
+                default:
+                    resultado.innerHTML = "Opção inválida";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Escolha uma opção</h1>
+    <ol>
+        <li>Calcular a raiz quadrada de um número</li>
+        <li>Informar dois números e mostrar o maior número</li>
+        <li>Informar a base e o expoente e elevar o número ao expoente informado</li>
+        <li>Informar dois números e mostrar o resultado</li>
+        <li>Informar uma frase em letras minúsculas e mostrar a frase em letras maiúsculas</li>
+    </ol>
+
+    <input type="number" min="1" max="5" id="escolha" />
+    <button onclick="calculo()" id="botao">Clique aqui</button>
+    <div id="resultado"></div>
+</body>
+
+</html>

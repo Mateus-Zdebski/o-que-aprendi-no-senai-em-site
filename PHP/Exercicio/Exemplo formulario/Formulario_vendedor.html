@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario do vendedor</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script language="javascript" src="js/script2.js"></script>
+    </head>
+
+    <style>
+        
+      .style-message{
+        width: 400px;
+        height: 50px;
+        /*background-color: #FF0000;*/
+        color:#FF0000;
+        font-size: 20px;
+        font-weight: bold;
+        
+      }
+    </style>
+    
+    <body>
+        <div id="box">
+            <p class="vendedor">CADASTRO DE VENDEDOR</p>
+          </div>
+          <form action="inclusaovendedor.php" method="post">
+            <div class="form-group">
+        
+              <label for="Nm_vendedor" class="col-sm-2 col-form-label">Nome do vendedor</label>
+              <div class="col-md-10 col-sm-10 col-lg-10">
+                <input type="text" class="form-control" placeholder="Informe o nome do vendedor" id="Nm_vendedor" name="Nm_vendedor">
+              </div>
+        
+              <label for="Ds_email" class="col-sm-2 col-form-label">email</label>
+              <div class="col-md-10 col-sm-10 col-lg-10">
+                <input type="email" class="form-control" placeholder="Informe o seu email" id="Ds_email" name="Ds_email">
+              </div>
+        
+              <label for="ds_cidade" class="col-sm-2 col-form-label">cidade</label>
+              <div class="col-md-10 col-sm-10 col-lg-10">
+                <input type="text" class="form-control" placeholder="Informe a cidade" id="ds_cidade" name="ds_cidade">
+              </div>
+        
+              <label for="ds_estado" class="col-sm-2 col-form-label">estado</label>
+              <div class="col-md-10 col-sm-10 col-lg-10">
+                <input type="text" class="form-control" placeholder="Informe o estado" id="ds_estado" name="ds_estado">
+              </div>
+        
+              
+            </div>
+            </div>
+        
+        
+            <div class="ml-3">
+              <button class="btn btn-primary" type="submit">Salvar</button>
+          </form>
+          <div id="erro">
+        
+          </div>
+          </main>
+        
+        
+    </body>
+</html>

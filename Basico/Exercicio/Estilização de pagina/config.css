@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    background-color: #53919138;
+
+}
+
+.branco {
+    color: white;
+}
+
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode";
+    ;
+
+}
+
+/* Estilos para o contêiner do título */
+#area-cabecalho {
+    background-color: darkorange;
+
+}
+
+body h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#area-postagens {
+    display: flex;
+    justify-content: center;
+    /* Centralizar horizontalmente */
+    flex-wrap: wrap;
+    /* Quebrar linha quando necessário */
+    gap: 20px;
+    /* Espaçamento entre as imagens e textos */
+    margin: auto;
+    width: 630px;
+}
+
+.postagem {
+    background-color: #c9bc8f;
+    width: 630px;
+
+}
+
+#area-lateral {
+    justify-content: fixed;
+    background-color: #c9bc8f;
+    width: 260px;
+    float: right;
+    position: relative;
+    /* Adicione position relative */
+    top: -1300px;
+    right: 300px;
+    /* Ajuste essa propriedade para mover o conteúdo para cima */
+
+}
+
+.lateral {
+    background-color: #c9bc8f;
+}
+
+#rodape {
+    text-align: center;
+    background-color: #c9bc8f;
+    margin: auto;
+    width: 630px;
+    border: 15px;
+
+}

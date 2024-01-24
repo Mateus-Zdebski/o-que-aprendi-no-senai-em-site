@@ -1,0 +1,41 @@
+.centro {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #38b156; /* Green background */
+  }
+  
+  .titulo {
+    color: rgb(0, 0, 0); 
+  }
+  
+  article {
+    background-color: #e0ffff;
+    border-color: #ccc #999 #999 #ccc; 
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  article img {
+    max-width: 200px; 
+    margin-right: 10px;
+  }
+  
+  section {
+    width: 100%;
+    max-width: 660px; 
+  }
+  
+  article h2 {
+    border-bottom: 1px dashed #7e9f19;
+  }
+  
+  body {
+    background: #e0f5f4fb;
+  }
+  

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>onfocus</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+<script>
+    function acao1(x) {
+        x.style.background = "yellow"
+    }
+
+    function acao2(x) {
+        x.style.background = "white"
+    }
+</script>
+
+<body>
+    <!--onfocus - É pra deixar label amarelo
+        onblur - deixa sem cor    
+    -->
+
+    <input onfocus="acao1(this)" onblur="acao2(this)" type="text">
+
+    <input onfocus="acao1(this)" onblur="acao2(this)" type="text">
+    <script src="" async defer></script>
+</body>
+
+</html>

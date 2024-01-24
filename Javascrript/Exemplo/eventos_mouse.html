@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>eventos_mouse</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<script>
+
+    function acao1() {
+        alert('Um clique')
+    }
+
+    function acao2() {
+        alert('Dois cliques')
+    }
+
+    function acao3() {
+        alert('mouse sobre elemento')
+    }
+
+    function acao4() {
+        alert('mouse saindo do elemento')
+    }
+
+</script>
+<style>
+    .caixa {
+        background-color: #ccc;
+        height: 150px;
+        width: 150px;
+    }
+</style>
+
+<body>
+    <div onclick="acao1()" class="caixa"></div>
+    <hr>
+    <div ondblclick="acao2()" class="caixa"></div>
+    <hr>
+    <div onmouseover="acao3()" class="caixa"></div>
+    <hr>
+    <div onmouseover="acao4()" class="caixa"></div>
+    <hr>
+    <script src="" async defer></script>
+</body>
+
+</html>

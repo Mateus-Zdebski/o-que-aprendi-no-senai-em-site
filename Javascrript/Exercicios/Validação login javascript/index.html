@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Estilizando Formulários</title>
+    <link rel="stylesheet" type="text/css" href="config.css">
+    <script src="Funcao.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <img src="imagens/perfil.png">
+        <form onSubmit="return validaCampo();">
+            <div>
+                <div class="input-container">
+                    <input class="email" type="text" name="email" id="email" placeholder="Digite seu e-mail"
+                        onkeypress="limpa()" ;>
+                </div>
+
+            </div>
+            <div>
+                <div class="input-container">
+                    <input class="Senha" type="password" name="Senha" id="Senha" placeholder="Senha" onkeypress="limpa();">
+                </div>
+
+            </div>
+            <div>
+                <input class="submit" type="submit" value="Logar">
+            </div>
+            <div id="erro">
+
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

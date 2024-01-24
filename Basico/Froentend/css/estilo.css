@@ -1,0 +1,69 @@
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode";
+    ;
+    line-height: 1.6;
+    background: #add8ad;
+}
+
+article {
+    background-color: #e0ffff;
+    border-color: #ccc #999 #999 #ccc;
+    border: 1PX solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+article h2 {
+    border-bottom: 1px dashed #7e9f19;
+}
+
+section {
+    float: left;
+    width: 670px;
+}
+
+h2:hover {
+    background-color: #7e9f19;
+    color: #e0ffff;
+}
+
+article img {
+    border: 1px solid #7e9f19;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    clear: both;
+}
+
+aside {
+    background: #F0F8FF;
+    border: 1px solid #c9bc8f;
+    padding: 10px;
+    width: 260px;
+    float: right;
+}
+
+aside h3 {
+    font-size: 14px;
+}
+
+aside ol {
+    margin-top: 12px;
+}
+
+.sidenote1 {
+    margin-top: 50px;
+    padding: 10px;
+    width: 260px;
+    float: right;
+}

@@ -1,0 +1,89 @@
+body,
+h1,
+form {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+body {
+    background-image: url("imagens/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 80px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+#container img {
+    display: block;
+    margin: 0 auto 100px;
+}
+
+#container img {
+    margin-top: -50%;
+}
+
+label {
+    margin-left: 20px;
+    align-items: center;
+    font-weight: bold;
+    background-size: 90px 90px;
+    background-position: left;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+}
+
+input[type=text] {
+    background-color: white;
+    background-image: url('imagens/icone-usuario.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 150px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 5px;
+    text-align: left;
+  }
+
+input[type="password"] {
+    background-color: white;
+    background-image: url('imagens/icone-cadeado.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 150px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    width: 110%;
+    background-color: #3498db;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.input-container {
+    position: relative; /* Adicione isso para criar um contexto de posicionamento */
+}
+
+.icons {
+    position: absolute;
+    left: - 300%; /* Ajuste o valor para alinhar corretamente */
+    top: 400%; /* Ajuste o valor para alinhar corretamente */
+    transform: translateY(-50%); /* Centraliza verticalmente com base na altura do ícone */
+}

@@ -1,0 +1,87 @@
+.container {
+  margin: 0 auto;
+  width: 998px;
+  float: center;
+}
+
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode";
+  ;
+  line-height: 1.6;
+
+}
+
+section {
+
+  text-align: center;
+  width: 998px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: left;
+}
+
+/* Estilos para o contêiner do título */
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para o contêiner do menu */
+.menu-container {
+  text-align: center;
+}
+
+/* Estilos para o contêiner das imagens e links */
+.image-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+/* Estilos para cada contêiner de imagem e link */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para as imagens */
+.image-container img {
+  max-width: 150px;
+  max-height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para os links */
+.image-container a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.image-container a:hover {
+  color: #007bff;
+}

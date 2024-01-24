@@ -1,0 +1,51 @@
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    float: center;
+}
+
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode";;
+    line-height: 1.6;
+
+}
+
+article {    
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+article img {
+
+    border: 1px solid #7e9f19;
+    float: center;
+    margin: 10px 10px 0 0;
+    padding: 1px;
+}
+
+section {
+
+text-align: center;
+width: 998px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  th {
+    text-align: center;
+  }
+  
+  td {
+    text-align: left;
+  }
+  

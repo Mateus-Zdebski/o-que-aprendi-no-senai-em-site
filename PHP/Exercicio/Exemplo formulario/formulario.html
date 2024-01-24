@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Formulario</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script language="javascript" src="funcoes1.js"></script>
+</head>
+
+<style>
+  .style-message {
+    width: 400px;
+    height: 50px;
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+</style>
+
+<body>
+  <div id="box">
+    <p class="">CADASTRO DE USUÁRIO</p>
+  </div>
+  <form action="inclusaousuario.php" method="post">
+    <div class="form-group">
+
+      <label for="Nm_cliente" class="col-sm-2 col-form-label">Nome cliente</label>
+      <div class="col-md-10 col-sm-10 col-lg-10">
+        <input type="text" class="form-control" placeholder="Informe o nome do Cliente" id="Nm_cliente" name="Nm_cliente">
+      </div>
+
+      <label for="Ds_email" class="col-sm-2 col-form-label">email</label>
+      <div class="col-md-10 col-sm-10 col-lg-10">
+        <input type="email" class="form-control" placeholder="Informe o seu email" id="Ds_email" name="Ds_email">
+      </div>
+
+      <label for="Ds_rua" class="col-sm-2 col-form-label">rua</label>
+      <div class="col-md-10 col-sm-10 col-lg-10">
+        <input type="text" class="form-control" placeholder="Informe a rua" id="Ds_rua" name="Ds_rua">
+      </div>
+
+      <label for="Ds_bairro" class="col-sm-2 col-form-label">bairro</label>
+      <div class="col-md-10 col-sm-10 col-lg-10">
+        <input type="text" class="form-control" placeholder="Informe o bairro" id="Ds_bairro" name="Ds_bairro">
+      </div>
+
+      <label for="Nr_numero" class="col-sm-2 col-form-label">numero</label>
+      <div class="col-md-10 col-sm-10 col-lg-10">
+        <input type="text" class="form-control" placeholder="Informe o numero da casa" id="Nr_numero" name="Nr_numero">
+      </div>
+
+      <label for="Nr_cep" class="col-sm-2 col-form-label">cep</label>
+      <div class="col-md-10 col-sm-10 col-lg-10">
+        <input type="text" class="form-control" placeholder="Informe o cep" id="Nr_cep" name="Nr_cep">
+      </div>
+
+      <label for="Nr_telefone" class="col-sm-2 col-form-label">telefone</label>
+      <div class="col-md-10 col-sm-10 col-lg-10">
+        <input type="text" class="form-control" placeholder="Informe o telefone" id="Nr_telefone" name="Nr_telefone">
+      </div>
+    </div>
+    </div>
+
+
+    <div class="ml-3">
+      <button class="btn btn-primary" type="submit">Salvar</button>
+  </form>
+  <div id="erro">
+
+  </div>
+  </main>
+
+
+
+</body>
+
+</html>

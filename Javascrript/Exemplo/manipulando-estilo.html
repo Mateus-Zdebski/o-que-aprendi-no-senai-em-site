@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>manipulando-estilo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+<script>
+    function modificaEstilo(corDeFundo,l,a){
+        document.getElementById('quadrado').style.backgroundColor = corDeFundo
+    
+        document.getElementById('quadrado').style.width = l
+    
+        document.getElementById('quadrado').style.height = a
+    }
+</script>
+
+    <body>
+       <h3>manipulando-estilo</h3>
+       <button type="button" onclick="modificaEstilo('#FF0000','150px','200px')">Vermelho</button>
+       <button type="button" onclick="modificaEstilo('#00FF00','150px','20px')">Verde</button>
+       <button type="button" onclick="modificaEstilo('#0000FF','150px','200px')">Azul</button>
+
+       <div id="quadrado" style="border: 1px solid #000000; width: 100px; height: 100px;"></div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
