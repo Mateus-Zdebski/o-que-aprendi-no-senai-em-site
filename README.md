@@ -17,20 +17,16 @@ O objetivo é consolidar os conhecimentos adquiridos e servir como referência p
 ## Estrutura de Arquivos
 
 ```
-├── Basico                                 # o que aprendi pra comecar
-│   ├── exercio                            # Estilos personalizados
-│   ├── exemplo                            # Estilos personalizados
-├── Bootstrap                              # o que aprendi pra comecar
-│   ├── exercio                            # Estilos personalizados
-│   ├── exemplo                            # Estilos personalizados
-├── Bootstrap                              # o que aprendi pra comecar
-│   ├── exercio                            # Estilos personalizados
-│   ├── exemplo                            # Estilos personalizados
-├── Javascrript                            # o que aprendi pra comecar
-│   ├── exercio                            # Estilos personalizados
-│   ├── exemplo                            # Estilos personalizados
-│   |  ├── classes do bootstrap            # Estilos personalizados
-└── README.md                              # Documento com informações do projeto
+├── Basico               # Conceitos fundamentais de HTML e CSS
+│   ├── exercicio        # Exercícios práticos
+│   ├── exemplo         # Exemplos de código
+├── Bootstrap            # Aprendizado sobre o framework Bootstrap
+│   ├── exercicio        # Exercícios com Bootstrap
+│   ├── exemplo         # Exemplos de uso do Bootstrap
+├── JavaScript           # Introdução ao JavaScript
+│   ├── exercicio        # Exercícios práticos
+│   ├── exemplo         # Exemplos de código
+└── README.md            # Documento com informações do projeto
 ```
 
 ## Funcionalidades
